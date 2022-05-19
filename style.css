@@ -1,10 +1,10 @@
 * {
-    margin: 0px auto;
+    margin: 0 auto;
 }
 .container {
     width: 950px;
     background-color: lightgray;
-    padding: 20px;
+    padding: 25px;
 }
 .top_text {
     color: rgb(26, 22, 22);
@@ -13,34 +13,27 @@
     font-size: large;
     font-weight: bold;
 }
-.top_section {
+.section {
     height: 250px;
-    background-color: rgb(125, 56, 215);
+    margin-bottom: 25px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    /* justify-content doesn't have effect when wild card is used. */
+    justify-content: space-evenly;
 }
-.middle_section {
-    height: 250px;
+.plum {
+    background-color: plum;
+}
+.pink {
     background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
 }
-.bottom_section {
-    height: 250px;
+.aquamarine {
     background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-.bottom_text {
-    text-align: center;
-    margin-top: 20px;
 }
 img {
     height: 150px;
+}
+.bottom_text {
+    text-align: center;
+    margin-top: 25px;
 }
